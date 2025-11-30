@@ -11,7 +11,7 @@ public class LoginView {
     User user;
     //登陆注册视图
     public User userView() throws SQLException {
-
+        System.out.println("【LOG】用户正在尝试登录...");
         Scanner login_choose = new Scanner(System.in);
         while(true) {
             System.out.println("请输入你的选择，1登录 2注册：");
